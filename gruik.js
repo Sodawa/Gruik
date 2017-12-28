@@ -4,7 +4,7 @@ const Cleverbot = require("cleverbot-node");
 const clbot = new Cleverbot;
 const prefix = "!";
 
-clbot.configure({botapi: "CC5ehFJkHVDXtn5xWK2FdJ1YfqA"});
+clbot.configure({botapi: ""});
 
 client.on('ready', () => {
   client.user.setPresence({ game: { name: 'discord.io/PixelGroin'}});
@@ -117,4 +117,4 @@ if (message.content.includes("394197232607559680")) {
 });
 
 ///////////////////////////////////////////////////////////////////////////////
-client.login("Mzk0MTk3MjMyNjA3NTU5Njgw.DSA0Tw.H28lFYgwaZOVqCwsgwN2UDvXIm8");
+client.login("");
